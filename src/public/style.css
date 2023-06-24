@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+canvas{
+    display: block;
+   
+}
+
+#botones{
+    background-color: aqua;
+    height: 100px;
+}
+
+button{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#btnDescargar{
+    background-color: chartreuse;
+}
+
+#clear-button{
+    background-color: red;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  #btnDescargar {
+    display: none;
+  }
+}
